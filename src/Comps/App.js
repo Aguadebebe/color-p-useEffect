@@ -41,3 +41,4 @@ export default App;
       setCurrentIndex(nextIndex);
       document.body.style.backgroundColor = colors[nextIndex].title;
   }; */ //This works in without the use effect. But it updates the DOM directly when the page renders.
+// which is not ideal best practices for React.
