@@ -30,6 +30,7 @@ function App() {
        <PreviewBox 
         color={currentColor}
        />
+       <div style={{ fontFamily: "sans serif", fontSize: "3.5em"}}>COLOR PICKER APP</div>
      </div>
   );
 };
